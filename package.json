@@ -1,0 +1,28 @@
+{
+  "name": "atitude-guia",
+  "version": "1.0.0",
+  "description": "Pagina promocional do guia inradar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wallace2anjos/atitude-guia.git"
+  },
+  "keywords": [
+    "guia"
+  ],
+  "author": "Wallace dos Anjos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wallace2anjos/atitude-guia/issues"
+  },
+  "homepage": "https://github.com/wallace2anjos/atitude-guia#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.11.0"
+  }
+}

@@ -29,6 +29,19 @@
 }
 
 body{
+    header{
+        nav.atitude-nav{
+            background-color: #1c1c1b;
+            padding: 20px 30px;
+            a.logo{
+                background: url('../img/logotipo-igrejabatistaatitude.png')no-repeat center center;
+                background-size: 125px auto;
+                display: block;
+                width: 125px;
+                height: 40px;
+            }
+        }
+    }
     main{
         margin: 80px 0;
         h1 {

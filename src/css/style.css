@@ -19,6 +19,16 @@
   src: url("fonts/ProximaNovaRegular.eot?#iefix") format("embedded-opentype"), url("fonts/ProximaNovaRegular.woff2") format("woff2"), url("fonts/ProximaNovaRegular.woff") format("woff"), url("fonts/ProximaNovaRegular.ttf") format("truetype"), url("fonts/ProximaNovaRegular.svg#svgFontName") format("svg");
   /* Legacy iOS */ }
 
+body header nav.atitude-nav {
+  background-color: #1c1c1b;
+  padding: 20px 30px; }
+  body header nav.atitude-nav a.logo {
+    background: url("../img/logotipo-igrejabatistaatitude.png") no-repeat center center;
+    background-size: 125px auto;
+    display: block;
+    width: 125px;
+    height: 40px; }
+
 body main {
   margin: 80px 0; }
   body main h1 {

@@ -13,32 +13,62 @@
   
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark atitude-nav">
+      <nav class="navbar navbar-expand-xl navbar-dark atitude-nav">
           <a class="navbar-brand logo" alt="Igreja Batista Atitude" title="Igreja Batista Atitude" href="#"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          <div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="btn-group at-perfil-mobile">
+              <button type="button" class="btn btn-secondary dropdown-toggle at-button-perfil" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./img/user.jpg" alt="Usuário Fulano de tal">
+              </button>
+              <div class="dropdown-menu dropdown-menu-right">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+          </div>
+
           <div class="collapse navbar-collapse" id="navbarsExample05">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
+                <a class="nav-link at-button-live" href="#">Live</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Igreja</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown05">
                   <a class="dropdown-item" href="#">Action</a>
                   <a class="dropdown-item" href="#">Another action</a>
                   <a class="dropdown-item" href="#">Something else here</a>
                 </div>
               </li>
-              
+              <li class="nav-item">
+                <a class="nav-link" href="#">Eventos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Palavra</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Notícias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Downloads</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
+              </li>
             </ul>
+            <a class="at-button-invertido" href="#">Envolva-se</a>
+            <div class="btn-group at-perfil-desktop">
+              <button type="button" class="btn btn-secondary dropdown-toggle at-button-perfil" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./img/user.jpg" alt="Usuário Fulano de tal">
+              </button>
+              <div class="dropdown-menu dropdown-menu-right">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
           </div>
         </nav>
     </header>
@@ -122,7 +152,7 @@
               <h2>Micro</h2>
               <div class="i-guia-micro"></div>
               <div>
-                <a href="#">Assinar</a>
+                <a href="#" class="at-button">Assinar</a>
               </div>
               <p>R$ 19,90/Mês</p>
               <ul>
@@ -139,7 +169,7 @@
               <h2>Básico</h2>
               <div class="i-guia-basico"></div>
               <div>
-                  <a href="#">Assinar</a>
+                  <a href="#" class="at-button">Assinar</a>
                 </div>
               <p>R$ 49,90/Mês</p>
               <ul>
@@ -159,7 +189,7 @@
               <h2>Ideal</h2>
               <div class="i-guia-ideal"></div>
               <div>
-                  <a href="#">Assinar</a>
+                  <a href="#" class="at-button">Assinar</a>
                 </div>
               <p>R$ 89,90/Mês</p>
               <ul>
@@ -175,7 +205,7 @@
               <h2>Completo</h2>
               <div class="i-guia-completo"></div>
               <div>
-                  <a href="#">Assinar</a>
+                  <a href="#" class="at-button">Assinar</a>
                 </div>
               <p>R$ 179,90/Mês</p>
               <ul>

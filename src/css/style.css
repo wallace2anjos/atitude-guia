@@ -21,13 +21,117 @@
 
 body header nav.atitude-nav {
   background-color: #1c1c1b;
-  padding: 20px 30px; }
+  padding: 14px 30px; }
+  body header nav.atitude-nav button.navbar-toggler {
+    border: none;
+    margin: 0 10px;
+    outline: none; }
   body header nav.atitude-nav a.logo {
     background: url("../img/logotipo-igrejabatistaatitude.png") no-repeat center center;
     background-size: 125px auto;
     display: block;
     width: 125px;
     height: 40px; }
+  body header nav.atitude-nav a.nav-link {
+    font-family: NexaHeavy;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff !important;
+    margin: 10px 25px;
+    -webkit-transition: all linear 100ms;
+    /* For Safari 3.1 to 6.0 */
+    transition: all linear 100ms; }
+  body header nav.atitude-nav a.nav-link:hover {
+    box-shadow: 0 2px 0 0rem #ff7500; }
+  body header nav.atitude-nav .at-button-perfil {
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0);
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 0; }
+    body header nav.atitude-nav .at-button-perfil img {
+      border-radius: 50px;
+      width: 50px;
+      height: 50px;
+      -webkit-transition: all linear 100ms;
+      /* For Safari 3.1 to 6.0 */
+      transition: all linear 100ms; }
+    body header nav.atitude-nav .at-button-perfil img:hover {
+      opacity: 0.5; }
+  body header nav.atitude-nav .at-button-perfil::after,
+  body header nav.atitude-nav .at-button-perfil:focus,
+  body header nav.atitude-nav .at-button-perfil:active {
+    content: "";
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 0 0rem rgba(130, 138, 145, 0) !important;
+    border-radius: 50px; }
+  body header nav.atitude-nav .at-button-live {
+    padding: 0.5rem 1rem !important;
+    border-radius: 50px;
+    background-color: #ff7500;
+    animation: live-aovivo-pulse 1s infinite; }
+
+@keyframes live-aovivo-pulse {
+  0% {
+    box-shadow: 0px 0px 0px 0px rgba(255, 117, 0, 0.8); }
+  70% {
+    box-shadow: 0px 0px 0px 5px rgba(255, 117, 0, 0); }
+  100% {
+    box-shadow: 0px 0px 0px 0px rgba(255, 117, 0, 0); } }
+  body header nav.atitude-nav .dropdown-menu {
+    padding: 0px;
+    margin-top: 14px;
+    border: none;
+    border-radius: 0 !important;
+    background: #1c1c1b;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0); }
+    body header nav.atitude-nav .dropdown-menu a {
+      background: #212121;
+      color: #ffffff;
+      font-family: NexaHeavy;
+      border: none;
+      border-radius: 0 !important;
+      padding: 15px 20px;
+      text-transform: uppercase;
+      font-size: .8rem;
+      letter-spacing: 1px; }
+    body header nav.atitude-nav .dropdown-menu a:active,
+    body header nav.atitude-nav .dropdown-menu a:hover,
+    body header nav.atitude-nav .dropdown-menu a:focus {
+      color: #ff7500;
+      border: none;
+      border-radius: 0 !important; }
+  body header nav.atitude-nav .at-perfil-mobile {
+    display: none; }
+  @media (max-width: 1480px) {
+    body header nav.atitude-nav a.nav-link {
+      margin: 10px 10px;
+      font-size: .6em; } }
+  @media (max-width: 1200px) {
+    body header nav.atitude-nav a.nav-link {
+      font-size: 0.75em;
+      margin: 10px 25px;
+      display: inline-block;
+      width: auto; }
+    body header nav.atitude-nav .navbar-collapse {
+      padding: 25px 0px; }
+    body header nav.atitude-nav .at-perfil-desktop {
+      display: none; }
+    body header nav.atitude-nav .at-perfil-mobile {
+      display: inline-block; }
+    body header nav.atitude-nav a.at-button-invertido {
+      margin-top: 15px; }
+    body header nav.atitude-nav .dropdown-menu {
+      margin: 0;
+      box-shadow: -2px 0px 0 0rem #ff7700; }
+    body header nav.atitude-nav a.dropdown-item {
+      padding: 15px 15px 15px 35px; } }
 
 body main {
   margin: 80px 0; }
@@ -78,6 +182,51 @@ body main {
       font-size: 1.6em;
       line-height: 90%; }
 
+body a.at-button {
+  font-family: NexaHeavy;
+  font-size: 0.8em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #1c1c1b;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #ff7500;
+  border-radius: 50px;
+  padding: 13px 40px;
+  display: inline-block;
+  -webkit-transition: all linear 100ms;
+  /* For Safari 3.1 to 6.0 */
+  transition: all linear 100ms; }
+
+body a.at-button:hover {
+  color: #ffffff;
+  background-color: #ff7500;
+  text-decoration: none; }
+
+body a.at-button-invertido {
+  font-family: NexaHeavy;
+  font-size: 0.75em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ffffff;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #ff7500;
+  border-radius: 50px;
+  padding: 12px 20px;
+  margin: 0px 20px;
+  display: inline-block;
+  -webkit-transition: all linear 100ms;
+  /* For Safari 3.1 to 6.0 */
+  transition: all linear 100ms; }
+
+body a.at-button-invertido:hover {
+  color: #ffffff;
+  background-color: #ff7500;
+  text-decoration: none; }
+
 body div.at-guia-planos {
   background-color: #f4f4f4;
   padding: 50px 0; }
@@ -102,26 +251,6 @@ body div.at-guia-planos {
       letter-spacing: 0px;
       line-height: 160%;
       text-align: center; }
-    body div.at-guia-planos div.mb-3 a {
-      font-family: NexaHeavy;
-      font-size: 0.8em;
-      text-align: center;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      color: #1c1c1b;
-      border-style: solid;
-      border-width: 2px 2px 2px 2px;
-      border-color: #ff7500;
-      border-radius: 50px;
-      padding: 13px 40px;
-      display: inline-block;
-      -webkit-transition: all linear 100ms;
-      /* For Safari 3.1 to 6.0 */
-      transition: all linear 100ms; }
-    body div.at-guia-planos div.mb-3 a:hover {
-      color: #ffffff;
-      background-color: #ff7500;
-      text-decoration: none; }
     body div.at-guia-planos div.mb-3 p {
       text-transform: none;
       font-family: NexaHeavy;

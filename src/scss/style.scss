@@ -156,7 +156,7 @@ body{
                 }
                 .dropdown-menu{
                    margin: 0;
-                   box-shadow: -2px 0px 0 0rem #ff7700;
+                   box-shadow: -2px 0px 0 0rem #ff7500;
                 }
                 a.dropdown-item{
                     padding: 15px 15px 15px 35px;
@@ -284,8 +284,8 @@ body{
             border-width: 0;
             border-color: none;
             padding: 30px 0;
-            -webkit-transition: all linear 200ms; /* For Safari 3.1 to 6.0 */
-            transition: all linear 200ms;
+            -webkit-transition: all linear 100ms; /* For Safari 3.1 to 6.0 */
+            transition: all linear 100ms;
             h2{
                 padding: 0;
                 text-transform: uppercase;
@@ -339,6 +339,100 @@ body{
             background:url("../img/PlanoCompleto.png") no-repeat center;
             width: 146px;
             height: 75px;
+        }
+    }
+    footer{
+        div.at-getapp{
+            background: #111111;
+            color: #ffffff;
+            p{
+                font-family: MontserratLight;
+                text-transform: uppercase;
+                font-size: .6em;
+                letter-spacing: 2px;
+            }
+            a{
+                text-decoration: none;
+            }
+            div.at-getapp-links{
+                text-align: center;
+                padding: 40px 0 70px 0;
+            }
+            img{
+                width: auto;
+                height: 40px;
+                margin: 0 10px;
+            }
+        }
+        div.at-footer-links{
+            background: #1c1c1b;
+            div.at-footer-links-padding{
+            padding: 100px 0 0 0;
+            }
+            .col-md{
+                padding-bottom: 35px;
+            }
+            h2{
+                font-family: NexaHeavy;
+                font-size: 1.2em;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                color: #ffffff;
+                padding:6px 0;
+            }
+            a{
+                font-family: MontserratLight;
+                font-size: 1em;
+                letter-spacing: 1px;
+                line-height: 150%;
+                color: #ffffff;
+                display: block;
+                -webkit-transition: all linear 50ms; /* For Safari 3.1 to 6.0 */
+                transition: all linear 50ms;
+            }
+            a:hover{
+                color: #ff7500;
+                text-decoration: none;
+            }
+        }
+        div.at-assinatura{
+            padding: 60px 0 30px 0;
+            .at-logo{
+                width: 128px;
+            }
+            span{
+                padding: 0 30px;
+                font-family: MontserratLight;
+                font-size: .8em;
+                letter-spacing: 2px;
+                color: #ffffff;
+            }
+            @media (max-width: 1200px) {
+                span{
+                    display: none;
+                }
+            }
+            .at-midias{
+                text-align: right;
+            }
+            .at-fb,.at-tw,.at-yt,.at-insta{
+                width: 38px;
+                height: 38px;
+                display: inline-block;
+                margin-right: 10px;
+            }
+            .at-fb{
+                background:url("../img/icon-midias-fb.png") no-repeat center center/100%;
+            }
+            .at-tw{
+                background:url("../img/icon-midias-tw.png") no-repeat center center/100%;
+            }
+            .at-insta{
+                background:url("../img/icon-midias-insta.png") no-repeat center center/100%;
+            }
+            .at-yt{
+                background:url("../img/icon-midias-yt.png") no-repeat center center/100%;
+            }
         }
     }
 }

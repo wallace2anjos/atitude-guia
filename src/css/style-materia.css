@@ -265,6 +265,8 @@ body main .card {
     letter-spacing: 1px;
     font-family: NexaHeavy;
     font-size: 10px; }
+  body main .card article {
+    padding: 20px 40px; }
 
 body main .btn-outline-secondary {
   color: #1c1c1b;

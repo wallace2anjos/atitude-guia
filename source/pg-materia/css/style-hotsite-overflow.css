@@ -1,0 +1,266 @@
+@font-face {
+  font-family: 'NexaHeavy';
+  src: url("fonts/NexaHeavy.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/NexaHeavy.eot?#iefix") format("embedded-opentype"), url("fonts/NexaHeavy.woff2") format("woff2"), url("fonts/NexaHeavy.woff") format("woff"), url("fonts/NexaHeavy.ttf") format("truetype"), url("fonts/NexaHeavy.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: 'MontserratLight';
+  src: url("fonts/MontserratLight.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/MontserratLight.eot?#iefix") format("embedded-opentype"), url("fonts/MontserratLight.woff2") format("woff2"), url("fonts/MontserratLight.woff") format("woff"), url("fonts/MontserratLight.ttf") format("truetype"), url("fonts/MontserratLight.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: 'ProximaNovaRegular';
+  src: url("fonts/ProximaNovaRegular.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/ProximaNovaRegular.eot?#iefix") format("embedded-opentype"), url("fonts/ProximaNovaRegular.woff2") format("woff2"), url("fonts/ProximaNovaRegular.woff") format("woff"), url("fonts/ProximaNovaRegular.ttf") format("truetype"), url("fonts/ProximaNovaRegular.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+
+body {
+  background: url("../img/hotsite/overflow/bg-red.png") repeat; }
+  body main {
+    color: #ffffff; }
+    body main .carousel-control-next-icon, body main .carousel-control-prev-icon {
+      background-color: black;
+      border-radius: 100px;
+      box-shadow: 0px 0px 0px 12px black; }
+    body main .carousel-item .bg-img-01 {
+      background: url("../img/hotsite/overflow/bg-01.jpg");
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+      display: block;
+      padding: 250px 0; }
+    body main .carousel-item .bg-img-02 {
+      background: url("../img/hotsite/overflow/bg-02.jpg");
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+      display: block;
+      padding: 250px 0; }
+    body main .carousel-item .bg-img-03 {
+      background: url("../img/hotsite/overflow/bg-01.jpg");
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+      display: block;
+      padding: 250px 0; }
+    body main .carousel-item .bg-img-04 {
+      background: url("../img/hotsite/overflow/bg-04.jpg");
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+      display: block;
+      padding: 250px 0; }
+    body main .carousel-item .bg-img-05 {
+      background: url("../img/hotsite/overflow/bg-05.jpg");
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+      display: block;
+      padding: 250px 0; }
+    body main .carousel-item .bg-img-06 {
+      background: url("../img/hotsite/overflow/bg-06.jpg");
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+      display: block;
+      padding: 250px 0; }
+    body main .carousel-item .bg-img-07 {
+      background: url("../img/hotsite/overflow/bg-07.jpg");
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+      display: block;
+      padding: 250px 0; }
+    body main .carousel-item .bg-img-08 {
+      background: url("../img/hotsite/overflow/bg-08.jpg");
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+      display: block;
+      padding: 250px 0; }
+    body main .carousel-item .bg-img-09 {
+      background: url("../img/hotsite/overflow/bg-09.jpg");
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+      display: block;
+      padding: 250px 0; }
+    body main .col-md-6-feature-1 {
+      background: url("../img/hotsite/overflow/feature-1.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+      display: block;
+      min-height: 555px; }
+    body main .col-md-6-feature-2 {
+      background: url("../img/hotsite/overflow/feature-2.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+      display: block;
+      min-height: 555px; }
+    body main .col-md-6-feature-3 {
+      background: url("../img/hotsite/overflow/feature-3.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+      display: block;
+      min-height: 555px; }
+    body main .col-md-6-feature-4 {
+      background: url("../img/hotsite/overflow/feature-4.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+      display: block;
+      min-height: 555px; }
+    body main .featurette-heading {
+      background: #ffffff;
+      color: #161616;
+      padding: 10px 0;
+      text-align: center; }
+    body main .no-padding {
+      padding: 0; }
+    body main ul {
+      list-style: decimal; }
+    body main .text-black {
+      color: #212121;
+      text-shadow: 2px 0px 0px white; }
+    body main .text-compassion {
+      color: #ff4343; }
+    body main .padding-p {
+      padding: 30px 0; }
+      body main .padding-p a {
+        color: #ff4343; }
+      body main .padding-p a:hover {
+        color: #ffffff; }
+    body main div.row {
+      background: #161616;
+      padding: 0px 0;
+      margin: 50px 0;
+      -webkit-box-shadow: 0px 0px 46px 0px black;
+      -moz-box-shadow: 0px 0px 46px 0px black;
+      box-shadow: 0px 0px 46px 0px black; }
+      body main div.row .rounded-img {
+        padding: 50px 50px; }
+    body main .btn-compassion {
+      color: #fff;
+      background-color: #ff4343;
+      border-color: #ff4343; }
+    body main .btn-primary:hover {
+      color: #fff;
+      background-color: #212121;
+      border-color: #000000; }
+    body main div.featurette {
+      font-size: 12px; }
+      body main div.featurette .lead {
+        padding: 50px; }
+      body main div.featurette .row-programacao {
+        margin: 0; }
+    body main .at-midias {
+      text-align: right; }
+    body main .at-fb, body main .at-tw, body main .at-yt, body main .at-insta {
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      margin-right: 10px; }
+    body main .at-fb {
+      background: url("../img/icon-midias-fb.png") no-repeat center center/100%; }
+    body main .at-tw {
+      background: url("../img/icon-midias-tw.png") no-repeat center center/100%; }
+    body main .at-insta {
+      background: url("../img/icon-midias-insta.png") no-repeat center center/100%; }
+    body main .at-yt {
+      background: url("../img/icon-midias-yt.png") no-repeat center center/100%; }
+  body footer div.at-getapp {
+    background: #1c1c1b;
+    color: #ffffff; }
+    body footer div.at-getapp p {
+      font-family: MontserratLight;
+      text-transform: uppercase;
+      font-size: .6em;
+      letter-spacing: 2px; }
+    body footer div.at-getapp a {
+      text-decoration: none; }
+    body footer div.at-getapp div.at-getapp-links {
+      text-align: center;
+      padding: 40px 0 70px 0; }
+    body footer div.at-getapp img {
+      width: auto;
+      height: 40px;
+      margin: 0 10px; }
+  body footer div.at-footer-links {
+    background: #1c1c1b; }
+    body footer div.at-footer-links div.at-footer-links-padding {
+      padding: 100px 0 0 0; }
+    body footer div.at-footer-links .col-md {
+      padding-bottom: 35px; }
+    body footer div.at-footer-links h2 {
+      font-family: NexaHeavy;
+      font-size: 1.2em;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: #ffffff;
+      padding: 6px 0; }
+    body footer div.at-footer-links a {
+      font-family: MontserratLight;
+      font-size: 1em;
+      letter-spacing: 1px;
+      line-height: 150%;
+      color: #ffffff;
+      display: block;
+      -webkit-transition: all linear 50ms;
+      /* For Safari 3.1 to 6.0 */
+      transition: all linear 50ms; }
+    body footer div.at-footer-links a:hover {
+      color: #ff7500;
+      text-decoration: none; }
+  body footer div.at-assinatura {
+    padding: 40px 0 40px 0; }
+    body footer div.at-assinatura .at-logo {
+      width: 128px; }
+    body footer div.at-assinatura span {
+      padding: 0 30px;
+      font-family: MontserratLight;
+      font-size: .8em;
+      letter-spacing: 2px;
+      color: #ffffff; }
+    @media (max-width: 1200px) {
+      body footer div.at-assinatura span {
+        display: none; } }
+    body footer div.at-assinatura .at-midias {
+      text-align: right; }
+    body footer div.at-assinatura .at-fb, body footer div.at-assinatura .at-tw, body footer div.at-assinatura .at-yt, body footer div.at-assinatura .at-insta {
+      width: 38px;
+      height: 38px;
+      display: inline-block;
+      margin-right: 10px; }
+    body footer div.at-assinatura .at-fb {
+      background: url("../img/icon-midias-fb.png") no-repeat center center/100%; }
+    body footer div.at-assinatura .at-tw {
+      background: url("../img/icon-midias-tw.png") no-repeat center center/100%; }
+    body footer div.at-assinatura .at-insta {
+      background: url("../img/icon-midias-insta.png") no-repeat center center/100%; }
+    body footer div.at-assinatura .at-yt {
+      background: url("../img/icon-midias-yt.png") no-repeat center center/100%; }

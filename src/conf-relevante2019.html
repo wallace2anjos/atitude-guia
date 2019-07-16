@@ -1,0 +1,615 @@
+
+<!doctype html>
+<html lang="en">
+    <!doctype html>
+    <html lang="en">
+      <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style-materia.css">
+        <title>Hello, ok</title>
+      </head>
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+  <body>
+      <header>
+          <nav class="navbar navbar-expand-xl navbar-dark atitude-nav">
+            <a class="navbar-brand logo" alt="O mesmo amor uma só Atitude" title="Igreja Batista Atitude" href="#"></a>
+            <div>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="btn-group at-perfil-mobile">
+                <button type="button" class="btn btn-secondary dropdown-toggle at-button-perfil" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./img/user.jpg" alt="Usuário Fulano de tal">
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="collapse navbar-collapse" id="navbarsExample05">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link at-button-live" href="#">Live</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Igreja</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdown05">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                      Dropdown <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>SubMenu1</li>
+                      <li>SubMenu2</li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Eventos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Palavra</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Notícias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Downloads</a>
+                </li>
+                <li class="nav-item">
+                  
+                </li>
+              </ul>
+              <a class="at-button-invertido" href="#">Envolva-se</a>
+              <div class="btn-group at-perfil-desktop">
+                <button type="button" class="btn btn-secondary dropdown-toggle at-button-perfil" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./img/user.jpg" alt="Usuário Fulano de tal">
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </header>
+
+        <nav class="bg-title-page">
+          <div class="container">
+            <div class="row inner-banner-heading">
+                <h1 class="col-md text-center text-md-left ng-binding">Título do Post</h1>          
+                <ol class="text-center text-md-right breadcrumb">
+                  <li><a ui-sref="app.home()" class="ng-binding" href="#/">Home</a></li>
+                  <li><a ui-sref="app.home()" class="ng-binding" href="#/">/Noticias</a></li>
+                  <li class="active ng-binding">/Post</li>
+                </ol>
+            </div>
+          </div>      
+        </nav>
+
+<!--
+********************************************************************************************************
+
+-------------------------------------------INICIO DO TEMPLATE-------------------------------------------
+
+********************************************************************************************************
+-->
+
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<style>
+/*
+==========================================
+======= RESET-INCHURCH-BOOTSTRAP - BEGIN
+==========================================
+*/
+b, strong {
+    font-weight: bold!important;
+}
+.lead {
+    font-size: 1.25rem!important;
+    font-weight: 300!important;
+}
+.theme-style-1 p{
+    font-size: 1.25rem!important;
+    font-weight: 300!important;
+    color: #1c1c1b;
+}
+.theme-style-1 h1,
+.theme-style-1 h2,
+.theme-style-1 h3,
+.theme-style-1 h4,
+.theme-style-1 h5,
+.theme-style-1 h6 {
+    font-family: nexa-heavy!important;
+    text-transform: uppercase;
+    line-height: 1;
+    margin: 0 0 15px;
+    overflow: hidden;
+    white-space: normal;
+    color:#1c1c1b;
+}
+.theme-style-1 h1 {
+    font-size: 2.5rem;
+}
+.theme-style-1 h2 {
+    font-size: 2rem;
+}
+.theme-style-1 h3 {
+    font-size: 1.75rem;
+}
+.theme-style-1 h4 {
+    font-size: 1.5rem;
+}
+.theme-style-1 h5 {
+    font-size: 1.25rem;
+}
+.theme-style-1 h6 {
+    font-size: 1rem;
+}
+
+/*
+  .theme-style-1 h2 {
+    font-size: 32px!important;
+  }
+  .theme-style-1 p {
+    font-size: .98em!important;
+    line-height: 180%!important;
+    color: #1c1c1b;
+  }
+*/
+  #page {
+    margin: 0;
+    padding:0;
+    max-width: 100%;
+  }
+  .page-section{
+    padding:0;
+  }
+/*
+==========================================
+======= RESET-INCHURCH-BOOTSTRAP - END
+==========================================
+*/
+
+            .relevante-bg0{
+              height:50vw;
+              width:100%;
+              background: url('https://uploaddeimagens.com.br/images/002/168/129/original/BALCÃO_-_RELEVANTE_Prancheta_2_cópia.jpg')no-repeat center center / cover;
+            }
+            .relevante-bg1{
+              background: #f3dc36;
+            }
+            .relevante-bg2{
+              background: #202020;
+            }
+            .icons-midias{
+              background: #e0cb2a;
+              color: #1c1c1b;
+              width: 60px;
+              height: 62px;
+              border: none;
+              font-size: 32px;
+              border-radius: 100px;
+            }
+
+            /*
+             aqui está o estilo do text style
+            */
+            
+            .link {
+              outline: none;
+              text-decoration: none;
+              position: relative;
+              font-size: 5em;
+              font-style:italic;
+              letter-spacing: 10px;
+              line-height: 1;
+              color: #f3dc36;
+              display: inline-block;
+              padding:50px 0;
+            }
+
+            .link--kukuri {
+              text-transform: uppercase;
+              font-weight: 900;
+              overflow: hidden;
+              line-height: 1;
+              color: #f3dc36;
+            }
+
+            .link--kukuri:hover {
+              color: #f3dc36;
+            }
+
+            .link--kukuri::after {
+              content: '';
+              position: absolute;
+              height: 16px;
+              width: 100%;
+              top: 50%;
+              margin-top: -8px;
+              right: 0;
+              background: #000000;
+              transform: translate3d(-100%,0,0);
+              transition: transform 0.4s;
+              transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+            }
+
+            .link--kukuri:hover::after {
+              transform: translate3d(100%,0,0);
+            }
+
+            .link--kukuri::before {
+              content: attr(data-letters);
+              position: absolute;
+              z-index: 2;
+              overflow: hidden;
+              color: #ffffff;
+              white-space: nowrap;
+              width: 0%;
+              transition: width 0.4s 0.3s;
+            }
+
+            .link--kukuri:hover::before {
+              width: 100%;
+            }
+</style>
+  
+<div class="relevante-bg0">
+
+</div>
+    <div class="marketing relevante-bg1">
+      <div class="position-relative overflow-hidden p-3 text-center " >
+
+        <div class="container p-lg-5 mx-auto">
+          <h1 class="font-weight-normal">Relevante</h1>
+          <h3 class="font-weight-normal pb-4">02 e 03 de agosto</h3>
+          <p class="lead font-weight-normal">Relevância! Uma igreja relevante que sai das quatro paredes para impactar uma sociedade. Um ministério com crianças que deseja levantar crianças relevantes para a nação.</p>
+          <p class="lead font-weight-normal">Um ministério que não fica “preso” à estrutura física, mas vai até os pequeninos, não importa onde eles estejam. Um ministério que abençoa a comunidade em que está inserido, que causa impacto nas crianças de tal forma que, como conseqüência, impactará suas famílias e comunidades. Uma igreja que trabalha a proteção da criança, que tem ação social, que é integral.</p>
+                <a href="https://igrejabatistaatitude.com.br/#/events/14336" class="btn btn-dark btn-lg m-2">Inscrição individual</a>
+                <a href="https://www.e-inscricao.com/ibatitude/atitudekidsconference19" class="btn btn-dark btn-lg m-2">Inscrição Dupla</a>
+
+
+        </div>
+      </div>
+  </div>
+  <div class="container-fluid relevante-bg2">
+  <div class="container">
+    <div class="row text-center py-5">
+      <iframe class="card-img-top my-5 py-5" width="1920" height="800" src="https://www.youtube.com/embed/QzdPNkL6Gzw?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="container text-center">
+        <b class="link link--kukuri" data-letters="LINE-UP">LINE-UP</b>
+      </div>
+      <div class="col-lg-4">
+        <div class="bd-placeholder-img rounded-circle" style="height:200px; width:200px; margin:30px auto; background: url('https://uploaddeimagens.com.br/images/002/166/600/original/POST_-_INDIVIDUAL6_Prancheta_4-01.png')no-repeat center -69px / 200%;"></div>
+            <h2 class="text-white">Ministra Damares Alves</h2>
+            <p><a class="btn btn-secondary icons-midias" href="https://instagram.com/damaresalvesoficial1?igshid=unkvo9fwpeej" role="button"><i class="fab fa-instagram"></i></a></p>
+            <p class="text-white lead">Damares Regina Alves é uma advogada e pastora evangélica brasileira, atual ministra da Mulher, da Família e dos Direitos Humanos do governo Jair Bolsonaro.</p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+              <div class="bd-placeholder-img rounded-circle" style="height:200px; width:200px; margin:30px auto; background: url('https://uploaddeimagens.com.br/images/002/166/623/original/POST_-_INDIVIDUAL_Prancheta_4-01.png')no-repeat center -60px / 200%;"></div>
+            <h2 class="text-white">Pra. Marília Pedroza</h2>
+            <p><a class="btn btn-secondary icons-midias" href="https://instagram.com/mariliapedroza?igshid=bfqpau6v5a4p" role="button"><i class="fab fa-instagram"></i></a></p>
+            <p class="text-white lead">Marília Pedroza é pastora na Igreja Videira em Goiânia, hoje tem 1.530 células e 24.700 crianças e juvenis. O seu ministério tem alcançado escolas, creches e unidades de acolhimento.</p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+              <div class="bd-placeholder-img rounded-circle" style="height:200px; width:200px; margin:30px auto; background: url('https://uploaddeimagens.com.br/images/002/166/651/original/POST_-_INDIVIDUAL5_Prancheta_4-01.png')no-repeat center -85px / 200%;"></div>
+            <h2 class="text-white">Dr. Guilherme Schelb</h2>
+            <p><a class="btn btn-secondary icons-midias" href="https://instagram.com/guilhermeschelb?igshid=1losdzvz3sjsc" role="button"><i class="fab fa-instagram"></i></a></p>
+            <p class="text-white lead">Guilherme Schelb, Procurador Regional da República, Mestre em Direito Constitucional pela UFPR, professor e palestrante sobre temas da infância, Família e Educação. Já capacitou mais de 200 mil pessoas no Brasil e exterior.</p>
+          </div><!-- /.col-lg-4 -->
+
+          <div class="col-lg-4">
+              <div class="bd-placeholder-img rounded-circle" style="height:200px; width:200px; margin:30px auto; background: url('https://uploaddeimagens.com.br/images/002/166/662/original/POST_-_INDIVIDUAL4_Prancheta_4-01.png')no-repeat center -75px / 250%;"></div>
+            <h2 class="text-white">Pra. Bruna Rafaella</h2>
+            <p><a class="btn btn-secondary icons-midias" href="https://instagram.com/brunarafaellaluz?igshid=1ely50stqzrsw" role="button"><i class="fab fa-instagram"></i></a></p>
+            <p class="text-white lead">Bruna Luz,  mãe educadora de seus filhos, formada em Administração de Empresas pela PUC/GO. Pastora de crianças da Igreja Dínamus SP e cocriadora do método AR (Um treinamento de Inteligência Emocional para casais todo fundamentado na Bíblia).</p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+              <div class="bd-placeholder-img rounded-circle" style="height:200px; width:200px; margin:30px auto; background: url('https://uploaddeimagens.com.br/images/002/166/673/original/POST_-_INDIVIDUAL2_Prancheta_4-01.png')no-repeat center -60px / 200%;"></div>
+            <h2 class="text-white">Pr. Josué Valandro Jr.</h2>
+            <p><a class="btn btn-secondary icons-midias" href="https://instagram.com/josuevalandrojr?igshid=99lzwgzgsq8s" role="button"><i class="fab fa-instagram"></i></a></p>
+            <p class="text-white lead">Escritor, conferencista e apresentador do programa Tempo de Atitude na Rede Bandeirantes. É graduado em Teologia pelo Seminário Teológico Batista do Sul do Brasil e Informática pela PUC-RJ. Pós-Graduado em Gestão Estratégica de Recursos Humanos pela Unileste-MG, e Mestrando em Teologia pelo Southeastern Baptist Theological Seminary (Carolina do Norte -USA)</p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+              <div class="bd-placeholder-img rounded-circle" style="height:200px; width:200px; margin:30px auto; background: url('https://uploaddeimagens.com.br/images/002/166/675/original/POST_-_INDIVIDUAL3_Prancheta_4-01.png')no-repeat center -85px / 210%;"></div>
+            <h2 class="text-white">Pra. Wilzy Adorno</h2>
+            <p><a class="btn btn-secondary icons-midias" href="https://instagram.com/wilzyadorno?igshid=x2u24ewga52c" role="button"><i class="fab fa-instagram"></i></a></p>
+            <p class="text-white lead">Pastora do ministério infantil da Igreja Batista Atitude, o Atitude Kids. Fez o Seminário Pastoral Videira e cursa Pedagogia. Lidera uma equipe de líderes que desejam marcar a próxima geração com a glória de Deus. Acompanha cerca de 1500 crianças e juvenis em mais de 220 células Kids. Seu anseio é alcançar as crianças com o evangelho transformando-as em discípulos de Cristo que impactarão e revolucionarão a sociedade.</p>
+          </div><!-- /.col-lg-4 -->
+          
+          
+        </div>
+
+            </div>
+          </div>
+            <!-- START THE FEATURETTES -->
+            
+            <div class="container">
+            <hr class="featurette-divider">
+        
+              <div class="row featurette">
+                <div class="col-md-7">
+                  <h2 class="featurette-heading my-4">Conf. Atitude Kids 2019 - <span class="text-muted"></span>RELEVANTE</span></h2>
+                  <p class="lead"><strong>Data:</strong>02 e 03 de agosto.</p>
+                  <p class="lead"><strong>Para quem?</strong>Pais, pastores, líderes, educadores, todas as pessoas que lidam com crianças.</p>
+                  <p class="lead"><strong>Objetivo:</strong>
+                    <br>* Crianças intensas em Deus.
+                    <br>* Pais conduzindo filhos ao propósito.
+                    <br>* Educadores exercendo sua missão.
+                    <br>* Líderes treinados para alcançar crianças.
+                    <br>* Famílias fortes transformando a sociedade.
+                    <br>* Igreja protegendo a infância.</p>
+                </div>
+                <div class="col-md-5">
+                    <div class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto bd-placeholder-img" style="height:500px; width:500px; margin:30px auto; background: url('https://uploaddeimagens.com.br/images/002/162/995/original/ADESIVOS_-_ADESIVO_E_FACA_Prancheta_1_c%C3%B3pia.jpg?1561748062')no-repeat center center / cover;"></div>
+                </div>
+              </div>
+WORKSHOP (guarde o numero do seu workshop)
+Formação e motivação de Equipe
+
+1- É líder de ministério? Como trabalhar de forma eficaz para formar uma equipe? E como mantê-la motivada?(Pra. Wilzy Adorno)
+Culto Kids
+
+2- Como realizar o culto infantil de forma intencional e criativa marcando a vida das crianças?(Hélika Ouverney)
+
+Células Kids
+3- Estou começando!(Pra. Elaine Cardozo)Como funciona uma célula kids?
+
+4- Já lidero!(Lilian dos Anjos)
+Como crescer e multiplicar?
+
+5- Minha célula é mista!(Pra. Camila Saldanha)
+Como trabalhar com idades diferentes na mesma célula?
+
+6- Quero uma célula atrativa!(Marcos e Gisele)
+Como ministrar a cada idade?
+
+7- Como lidar com a indisciplina?(Bárbara Miranda)
+Preciso manter a ordem!
+
+Inclusão
+8- Como trabalhar para incluir crianças com necessidades específicas no ministério kids?
+(Aline Santos)
+       
+            <hr class="featurette-divider">
+        
+            <div class="row featurette">
+              <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading my-4">TOUR/LABS</h2>
+                  <p class="lead"><strong>Tour: </strong>
+                    Um passeio para conhecer a estrutura física do Atitude Kids: auditório, salas, armários, etc.</p>
+                  <p class="lead"><strong>Laboratórios: </strong>
+                    Um espaço para troca de ideias! Os Laboratórios são apresentações teórico-práticas de áreas
+                    estratégicas do Atitude Kids. Apresentaremos “O que fazemos” e “Como fazemos” para ativar,
+                    motivar e impulsionar seu ministério.
+                   <br>1. Louvor, Dança e Coral Kids
+                   <br>2. Domingo Kids: Organização Interna
+                   <br>3. Projeto Betel: crianças ganhando suas famílias
+                   <br>4. Projeto Kidscípulos: treinando crianças para liderar
+                   <br>5. Recepção e Segurança do Culto Kids
+                   <br>6. Vida Vitoriosa Kids e Juvenis
+                   <br>7. Avivalistas: crianças intensas na oração</p>
+              </div>
+              <div class="col-md-5 order-md-1">
+                  <div class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto bd-placeholder-img" style="height:500px; width:500px; margin:30px auto; background: url('https://uploaddeimagens.com.br/images/002/162/987/original/HOTSITE-02.png')no-repeat center center / cover;"></div>
+              </div>
+            </div>
+        
+            <hr class="featurette-divider">
+        
+            <div class="row featurette">
+              <div class="col-md-7">
+                <h2 class="featurette-heading my-4">WORKSHOP (guarde o numero do seu workshop)<span class="text-muted"></span></h2>
+                
+                    <h5 class="display-5">Formação e motivação de Equipe</h5>
+                    <ul class="lead">
+                    <li>1- É líder de ministério? Como trabalhar de forma eficaz para formar uma equipe? E como mantê-la motivada? <strong>(Pra. Wilzy Adorno)</strong></li>
+                  </ul>
+                  <h5 class="display-5">Culto Kids</h5>
+                  <ul class="lead">
+                      <li>2- Como realizar o culto infantil de forma intencional e criativa marcando a vida das crianças?<strong>(Hélika Ouverney)</strong></li>
+                  </ul>
+                  <h5  class="display-5">Células Kids</h5>
+                  <ul class="lead">
+                    <li>3- Estou começando!<strong>(Pra. Elaine Cardozo)</strong>
+                      <ul><li>Como funciona uma célula kids? </li></ul>
+                    </li>
+                    <li>4- Já lidero!<strong>(Lilian dos Anjos)</strong>
+                      <ul><li>Como crescer e multiplicar?</li></ul>
+                    </li>
+                    <li>5- Minha célula é mista!<strong>(Pra. Camila Saldanha)</strong>
+                      <ul><li>Como trabalhar com idades diferentes na mesma célula?</li></ul>
+                    </li>
+                    <li>6- Quero uma célula atrativa!<strong>(Marcos e Gisele)</strong>
+                      <ul><li>Como ministrar a cada idade?</li></ul>
+                    </li>
+                    <li>7- Como lidar com a indisciplina?<strong>(Bárbara Miranda)</strong>
+                      <ul><li>Preciso manter a ordem!</li></ul>
+                    </li>
+                  </ul>
+                  <h5  class="display-5">Inclusão</h5>
+                  <ul class="lead">
+                   <li>8- Como trabalhar para incluir crianças com necessidades específicas no ministério kids?<strong>(Aline Santos)</strong></li>
+                  </ul>
+                
+              </div>
+              <div class="col-md-5">
+                  <div class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto bd-placeholder-img" style="height:500px; width:500px; margin:30px auto; background: url('https://uploaddeimagens.com.br/images/002/162/983/original/HOTSITE-04.png')no-repeat center center / cover;"></div>
+              </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+              <div class="col-md-7 order-md-2 my-5">
+                <h2 class="featurette-heading">como chegar? <span class="text-muted">Local do Evento</span></h2>
+                <p class="lead">Rua Sylvio da Rocha Pollis, 751 Pontões | Barra da Tijuca. A igreja possui estacionamento com vagas sujeitas a lotação. Além disso, a rua da igreja fica em frente à estação de BRT PONTÕES / BARRA SUL. </p>
+                <a class="btn btn-lg btn-dark" href="https://goo.gl/maps/Wz9fQNQLRcC2" role="button">Ver no Maps</a>
+              </div>
+              <div class="col-md-5 order-md-1">
+                  <div class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto bd-placeholder-img" style="height:500px; width:500px; margin:30px auto; background: url('https://uploaddeimagens.com.br/images/002/162/986/original/HOTSITE-03.png')no-repeat center center / cover;"></div>
+              </div>
+            </div>
+          </div>
+            <!-- /END THE FEATURETTES -->
+
+            <div class="marketing relevante-bg1">
+
+                <div class="position-relative overflow-hidden p-3 text-center " >
+              
+                    <div class="container p-lg-5 mx-auto">
+                      <h1 class="font-weight-normal">Inscreva-se </h1>
+                      <h3 class="font-weight-normal pb-4">O evento será realizado nos dias 02 e 03 de agosto</h3>
+                      
+                      <div class="container text-center">
+                          <div class="card-body text-center">
+                              <p>
+                                  <a href="https://igrejabatistaatitude.com.br/#/events/14336" class="btn btn-dark btn-lg m-2">Inscrição individual</a>
+                                  <a href="https://www.e-inscricao.com/ibatitude/atitudekidsconference19" class="btn btn-dark btn-lg m-2">Inscrição Dupla</a>
+                              </p>
+                              <hr class="my-5">
+                              <div class="container ">
+                                <a class="btn btn-secondary icons-midias" href="https://www.instagram.com/atitudekids/?hl=pt-br" role="button">
+                                  <i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-secondary icons-midias" href="https://www.facebook.com/atitudekidsiba/?ref=br_rs role="button">
+                                  <i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-secondary icons-midias" href="https://www.youtube.com/channel/UCcEVbv8De5pygMzRezoyNIA" role="button">
+                                  <i class="fab fa-youtube"></i></a>
+                                
+                              </div>
+
+                          </div>
+                          
+                       
+                        
+                      </div>
+                      <div class="product-device shadow-sm d-none d-md-block"></div>
+                      <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+                    </div>
+                  </div>
+                </div>
+                
+
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.44491233335!2d-43.43436698503255!3d-23.007430884960712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bdcea0431dc37%3A0xe9f9682b65baee8d!2sIgreja+Batista+Atitude!5e0!3m2!1spt-BR!2sbr!4v1552435066758" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+          <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+          <script src="https://kit.fontawesome.com/b53e80d9c1.js"></script>
+				
+
+
+<!--
+*******************************************************************************************************
+
+-------------------------------------------FINAL DO TEMPLATE-------------------------------------------
+
+*******************************************************************************************************
+-->
+
+        <footer>
+          <div class="container-fluid at-getapp">
+            <div class="container">
+              <div class="at-getapp-links">
+                <p>Baixe o app e tenha a Atitude em suas mãos</p>
+                <a href="">
+                  <img src="./img/googleplay.png" alt="Baixe e tenha toda Atitude em suas mãos">
+                </a>
+                <a href="">
+                  <img src="./img/appstore.png" alt="Baixe e tenha toda Atitude em suas mãos">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid at-footer-links">
+            <div class="container at-footer-links-padding">
+              <!-- Example row of columns -->
+              <div class="row">
+                  <div class="col-md">
+                    <h2>Home</h2>
+                    <a href="#">Igreja</a>
+                    <a href="#">Envolva-se</a>
+                    <a href="#">Live</a>
+                    <a href="#">Eventos</a>
+                    <a href="#">Palavra</a>
+                    <a href="#">Contribuição</a>
+                    <a href="#">News</a>
+                    <a href="#">Web Rádio</a>
+                    <a href="#">Contatos</a>
+                    <a href="#">Download</a>
+                    <a href="#">Liderança</a>
+                    <a href="#">Ministérios</a>
+                  </div>
+                  <div class="col-md">
+                    <h2>Locais</h2>
+                    <a href="#">Zona Sul</a>
+                    <a href="#">Vargem Grande</a>
+                    <a href="#">Guaratiba</a>
+                    <a href="#">Nova Iguaçú</a>
+                    <a href="#">Cordeiro</a>
+                    <a href="#">Piabetá</a>
+                    <a href="#">Vitória</a>
+                    <a href="#">Orlando</a>
+                    <a href="#">Vancouver</a>
+                  </div>
+                  <div class="col-md">
+                    <h2>Música</h2>
+                    <a href="#">Ministério Atitude</a>
+                    <a href="#">Be One Music</a>
+                  </div>
+                  <div class="col-md">
+                    <h2>Mais</h2>
+                    <a href="#">Anúncios</a>
+                    <a href="#">Cupons</a>
+                    <a href="#">Empregar</a>
+                    <a href="#">Pedidos de Oração</a>
+                    <a href="#">Como chegar?</a>
+                  </div>
+                  <div class="col-md"></div>
+              </div>          
+            </div>
+            <div class="container at-assinatura">
+              <div class="row">
+                  <div class="col-sm-7">
+                      <img class="at-logo" src="./img/logotipo-igrejabatistaatitude.png" alt=""><span>R. Sylvio da Rocha Pollis 751 - (21) 2430-2750</span>
+                    </div>
+                    <div class="col-sm-5 at-midias">
+                      <a href="#" class="at-tw"></a>
+                      <a href="#" class="at-insta"></a>
+                      <a href="#" class="at-fb"></a>
+                      <a href="#" class="at-yt"></a>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>
